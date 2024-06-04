@@ -1,3 +1,68 @@
+
+
 body{
     background-color: rebeccapurple;
+    margin: 0;
+}
+
+.navBar_container{
+    background-color: aqua;
+    position: absolute;
+    width: 100%;
+    /* top: 50px; */
+    display: block;
+    /* display: none; */
+}
+
+.navBar_links{
+    /* float: center; */
+    padding: 10px;
+}
+
+.navbarPlaceHolder{
+    width: 100%;
+    height: 50px;
+}
+
+.link{
+    display: inline;
+    padding: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 20px;
+    /* float: right; */
+}
+
+.linkButton{
+
+}
+
+
+.devPhoto_name{
+    text-align: center;
+}
+
+.devPhoto_container{
+    background-color: aliceblue;
+    /* width: auto; */
+    width: 75%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.devPhoto{
+    /* width: 55%px; */
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 20px;
+}
+
+.devPhoto_aboutMe{
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }
