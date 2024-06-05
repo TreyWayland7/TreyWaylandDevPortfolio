@@ -1,12 +1,12 @@
 
 
 body{
-    background-color: rebeccapurple;
+    background-color: #618685;
     margin: 0;
 }
 
 .navBar_container{
-    background-color: aqua;
+    background-color:#4040a1;
     position: absolute;
     width: 100%;
     /* top: 50px; */
@@ -33,17 +33,60 @@ body{
     /* float: right; */
 }
 
-.linkButton{
+/* .linkButton{
 
-}
-
+} */
+ .contactMe_container{
+    background-color: #fefbd8;
+    margin-top: 20px;
+ }
 
 .devPhoto_name{
     text-align: center;
+    background-color:  #36486b;
+    color: white;
+    font-size: 40px;
+}
+
+.contactMe_list ul{
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    list-style: none;
+    /* padding: 10px; */
+    /* margin: 5px; */
+}
+
+.contactMe_header{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    padding: 10px;
+}
+
+
+
+.contactMe_list li{
+    margin: 10px;
+}
+
+.work{
+    background-color: #36486b;
+    width: 28%;
+    flex: 1 1 30%;
+    text-align: center;
+}
+.work_container{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    
 }
 
 .devPhoto_container{
-    background-color: aliceblue;
+    background-color:#fefbd8;
     /* width: auto; */
     width: 75%;
     display: block;
@@ -65,4 +108,5 @@ body{
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    background-color: #36486b;
 }
