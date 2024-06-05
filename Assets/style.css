@@ -7,35 +7,60 @@ body{
 
 .navBar_container{
     background-color:#4040a1;
-    position: absolute;
+    position: sticky;
     width: 100%;
+    top: 0;
+    height: 5%;
+
     /* top: 50px; */
-    display: block;
+    display: flex;
     /* display: none; */
+}
+.navBar_text{
+    color: white;
+    font-size: 70px;
+    padding: 10px;
+    /* display: flex; */
 }
 
 .navBar_links{
     /* float: center; */
     padding: 10px;
+    display: flex;
+    /* color: white; */
+
+    /* position: sticky; */
 }
 
 .navbarPlaceHolder{
     width: 100%;
-    height: 50px;
+    height: 0px;
 }
 
 .link{
     display: inline;
     padding: 5px;
-    border-style: solid;
+    /* border-style: solid;
     border-width: 1px;
-    border-radius: 20px;
+    border-radius: 20px; */
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 190%;
+    /* align-items: center; */
     /* float: right; */
+    /* & button{
+        width: 500px;
+    } */
 }
 
-/* .linkButton{
+.linkButton_button{
+    width: 100px;
+}
 
-} */
+.linkButton{
+    padding: 10px;
+}
  .contactMe_container{
     background-color: #fefbd8;
     margin-top: 20px;
@@ -45,7 +70,11 @@ body{
     text-align: center;
     background-color:  #36486b;
     color: white;
-    font-size: 40px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    font-size: 50px;
+    font-weight: 600;
+    padding: 10px;
 }
 
 .contactMe_list ul{
@@ -88,25 +117,50 @@ body{
 .devPhoto_container{
     background-color:#fefbd8;
     /* width: auto; */
-    width: 75%;
+    width: 45%;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    border-radius: 20px;
 }
 
 .devPhoto{
     /* width: 55%px; */
-    width: 500px;
+    width: 75%;
     margin-left: auto;
     margin-right: auto;
     display: block;
     border-radius: 20px;
+    margin-top: 10px;
 }
 
-.devPhoto_aboutMe{
+.aboutMe_text{
+    font-size: 140px;
+    font-style: italic;
+    text-align: center;
+    /* width: 40%; */
+    /* margin: 0 auto; */
+}
+
+.devPhoto_text{
     width: 75%;
     margin-left: auto;
     margin-right: auto;
+    padding: 10px;
+}
+
+.devPhoto_aboutMe{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
+    color: white;
     background-color: #36486b;
+    /* padding: 10px; */
+    /* border-radius: 20px; */
+    /* margin: 0 5px; */
+    /* margin-top: 10px; */
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-top: 10px;
 }
