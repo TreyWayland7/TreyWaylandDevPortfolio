@@ -100,10 +100,14 @@ body{
 }
 
 .work{
-    background-color: #36486b;
+    background-color: #fefbd8;
     width: 28%;
     flex: 1 1 30%;
     text-align: center;
+    width: 30%;
+    margin:10px;
+    border-radius: 20px;
+    height: 100px;
 }
 .work_container{
     width: 90%;
@@ -117,16 +121,25 @@ body{
 .devPhoto_container{
     background-color:#fefbd8;
     /* width: auto; */
-    width: 45%;
+    width: 35%;
     display: block;
     margin-left: auto;
     margin-right: auto;
     border-radius: 20px;
+    margin-top: 10px;
+    
+}
+
+.work_title{
+    background-color: #36486b;
+    color:white;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
 
 .devPhoto{
     /* width: 55%px; */
-    width: 75%;
+    width: 95%;
     margin-left: auto;
     margin-right: auto;
     display: block;
