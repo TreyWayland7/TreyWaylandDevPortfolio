@@ -18,8 +18,9 @@ body{
     /* display: none; */
 }
 .navBar_text{
+    margin-left: 5%;
     color: white;
-    font-size: 70px;
+    font-size: 80px;
     padding: 10px;
     /* display: flex; */
 }
@@ -28,6 +29,11 @@ body{
     /* float: center; */
     padding: 10px;
     display: flex;
+    /* color: white; */
+    align-items: center;
+    /* float: right; */
+    margin-left: auto;
+    margin-right: 5%;
     /* color: white; */
 
     /* position: sticky; */
@@ -48,11 +54,21 @@ body{
     margin-left: 10px;
     margin-right: 10px;
     font-size: 190%;
+    /* text-decoration: none; */
     /* align-items: center; */
     /* float: right; */
     /* & button{
         width: 500px;
     } */
+
+    a{
+        /* text-decoration: none; */
+        color: white;
+    }
+
+    a:hover{
+        font-size: 105%;
+    }
 }
 
 .linkButton_button{
@@ -222,6 +238,7 @@ button{
     .work_title{
         width: 76%;
         height: 41%;
+        background-color: rgba(255, 255, 255, 0.7);
     }
 
 }
