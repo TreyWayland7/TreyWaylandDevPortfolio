@@ -18,8 +18,10 @@ The link the the website is as follows:
 
 Link to My git hub repository https://github.com/TreyWayland7/TreyWaylandDevPortfolio
 
+Link to the Website: https://treywayland7.github.io/TreyWaylandDevPortfolio/
+
 Credits
-I did not author this code. The original source can be found here https://github.com/coding-boot-camp/urban-octo-telegram
+I did not author te photos. I found them here: https://www.pexels.com/
 
 License
 Please refer to the LICENSE in the repo.
