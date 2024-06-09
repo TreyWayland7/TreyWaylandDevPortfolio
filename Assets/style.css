@@ -165,27 +165,65 @@ body{
     /* width: 30%; */
     margin:10px;
     border-radius: 20px;
-    height: 100px;
+    height: 125px;
+    padding: 20px;
 }
 
 .workButton{
     width: 100%;
-    height: 100%;
+    height: 125%;
+    /* padding: 30px; */
     border-radius: 20px;
+    /* background: url('IMG_20230312_1308331.jpg') no-repeat; */
     /* border-bottom-left-radius: 20px;
-
     border-bottom-right-radius: 20px; */
+}
 
+.backgroundProgjectOne{
+    background: url(pexels-goumbik-1420701.jpg);
+    background-size: 100%;
+}
+
+.backgroundProgjectTwo{
+    background: url(pexels-pixabay-147413.jpg);
+    background-size: 100%;
+}
+
+.backgroundProgjectThree{
+    background: url(pexels-markusspiske-330771.jpg);
+    background-size: 100%;
+}
+
+
+.backgroundProgjectFour{
+    background: url(pexels-brett-sayles-3653997.jpg);
+    background-size: 100%;
+}
+
+.backgroundProgjectFive{
+    background: url(pexels-marcellino-andrian-209361-671629.jpg);
+    background-size: 100%;
+}
+
+.backgroundProgjectSix{
+    background: url(pexels-pixabay-534216.jpg);
+    background-size: 100%;
+}
+
+button{
+    /* background: url('IMG_20230312_1308331.jpg') no-repeat; */
 }
 
 .workButton:hover{
     cursor: pointer;
     width: 99%;
-    height: 99%;
-
+    height: 124%;
+    
     .work_title{
-        width: 99%;
+        width: 76%;
+        height: 41%;
     }
+
 }
 
 @media screen and (max-width: 1200px){
@@ -203,7 +241,7 @@ body{
 @media screen and (max-width: 900px){
     .work{
         /* background-color: blue; */
-        width: 60%;
+        width: 50%;
         flex: 1 1 60%;
     }
 
@@ -278,10 +316,19 @@ body{
 }
 
 .work_title{
-    background-color: #36486b;
+    background-color: rgba(255, 255, 255, 0.8);
     color:white;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
+    position:relative ;
+    width: 75%;
+    height: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 40px;
+    color: black;
+    font-weight: 800;
+    /* border-top-left-radius: 20px; */
+    /* border-top-right-radius: 20px; */
+    border-radius: 20px;
 }
 
 .devPhoto{
